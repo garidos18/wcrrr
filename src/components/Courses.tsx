@@ -226,6 +226,7 @@ const Courses = () => {
                     </div>
                     <div className="mt-6 sm:mt-0 flex flex-col sm:flex-row gap-4">
                       <motion.button 
+                        onClick={() => scrollToSection('enroll')}
                         className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
